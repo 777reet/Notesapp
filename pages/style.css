@@ -8,10 +8,10 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    background: linear-gradient(135deg, #9998fa, #100152);
     color: #fff ;
-    padding-top: 5%;
-    padding-left: 5%;
+    padding-top: 3%;
+    padding-left: 3%;
 }
 
 .container h1{
@@ -34,13 +34,35 @@
 .container button{
     display : flex;
     align-items: center;
-    background-color: #95c0ff;
+    background : linear-gradient(#0a1e6f, #5344dd);
     color : white;
     font-size : 16px;
     outline : 0;
     border: 0;
     border-radius: 40px;
-    padding: 15px 25px;
-    margin : 30px 20px;
+    padding: 20px 25px;
+    margin : 20px 5px;
+    cursor: pointer;
+}
+
+.input{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background-color: #cee9f6;
+    color: #130442;
+    padding : 20px;
+    margin: 20px 0;
+    outline: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0.2, 0.2, 0.2);
+    border-radius: 20px;
+}
+
+.input img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
     cursor: pointer;
 }
